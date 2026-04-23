@@ -16,4 +16,4 @@ with tf.summary.create_file_writer(log_dir).as_default():
     # Ejecutar la función para registrar el grafo
     result = simple_computation(tf.constant(4.0), tf.constant(2.0))
 
-    tf.summary.trace_export(name="simple_graph", step=10)
+    tf.summary.trace_export(name="simple_graph", step=4)
